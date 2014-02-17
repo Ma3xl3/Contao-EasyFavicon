@@ -1,9 +1,9 @@
 Contao-EasyFavicon
 ==============================
 
-This extension allows you to add easily a favicon and apple touch icon for your website.
+This extension allows you easily to add a favicon and apple touch icon to your website.
 
-Png, jpeg and gif files will be automatically converted into a ico file. The following sizes are available in the ico file: 16x16, 24x24, 32x32, 48x48. If you choose an animated gif the first image will be used for the ico converted file.
+Png, jpeg and gif files will automatically be converted into a ico file. The following sizes are available in the ico file: 16x16, 24x24, 32x32, 48x48. If you choose an animated gif the first image will be used for the ico converted file.
 
 You can also choose a traditional ico file. It will be included directly.
 

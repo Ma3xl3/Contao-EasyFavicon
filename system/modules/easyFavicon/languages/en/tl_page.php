@@ -30,5 +30,5 @@ $GLOBALS['TL_LANG']['tl_page']['favicon_legend'] = 'Favicon';
  */
 $GLOBALS['TL_LANG']['XPL']['faviconSRCexpl'] = array(
 	array('Ico file', 'The original ico file will be included.'),
-	array('Png/ gif-/ jpg file', 'Converts to a ico file.<br><br>The ico file will include the following sizes: 16x16, 24x24, 32x32, 48x48. Therefore it is recommended to select an image with at least 48x48px.<br><br>If you choose an animated gif the first image will be used for the ico converted file.')
+	array('Png/ gif-/ jpg file', 'Converts to a ico file.<br><br>The following sizes are available in the ico file: 16x16, 24x24, 32x32, 48x48. Therefore it is recommended to select an image with at least 48x48px.<br><br>If you choose an animated gif the first image will be used for the ico converted file.')
 );

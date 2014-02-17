@@ -81,7 +81,7 @@ class easyFavicon extends \Frontend
 			
 			if( $objAppleTouchIcon !== NULL && is_file( TL_ROOT . '/' . $objAppleTouchIcon->path ) )
 			{
-				$faviconAppleTouchIcon = 'share/favicon-apple-couch-icon-' . $rootPage->alias . '.png';
+				$faviconAppleTouchIcon = 'share/favicon-apple-touch-icon-' . $rootPage->alias . '.png';
 				
 				//create resized png icon
 				$this->getImage( $objAppleTouchIcon->path, $this->appleTouchIconSize[0], $this->appleTouchIconSize[1], 'center_center', $faviconAppleTouchIcon);

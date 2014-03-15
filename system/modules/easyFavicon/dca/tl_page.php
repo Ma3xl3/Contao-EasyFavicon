@@ -11,8 +11,8 @@
  * @copyright Web-Creations 2014
  */
 
-$GLOBALS['TL_CSS'][] = 'system/modules/easyFavicon/assets/css/backend.css|screen';
-
+if (TL_MODE == 'BE')
+	$GLOBALS['TL_CSS'][] = 'system/modules/easyFavicon/assets/css/backend.css|screen';
 
 /**
  * Table tl_page

@@ -21,6 +21,10 @@ To regenerate the icon, delete the file favicon-*.ico and favicon-apple-touch-ic
 
 ## Changelog
 
+##### Version 1.0.1 stable
+
+* Backend css appeared in frontend (see #1)
+
 ##### Version 1.0.0 stable
 
 * First release

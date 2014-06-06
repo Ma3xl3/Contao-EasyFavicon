@@ -1,0 +1,24 @@
+{
+    "name": "ma3xl3/contao-easy-favicony",
+    "type": "contao-module",
+    "description": "This extension allows you easily to add a favicon and apple touch icon to your website.",
+    "keywords": ["contao", "favicon"],
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Markus Kinzl",
+            "email": "maex@duncrow.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "contao/core": "3.*"
+    },
+    "extra": {
+        "contao": {
+            "symlinks": {
+                "system/modules/easyFavicon": "system/modules/easyFavicon"
+            }
+        }
+    }
+}

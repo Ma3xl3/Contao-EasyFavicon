@@ -11,6 +11,10 @@
             "email": "markus.kinzl@web-creations.at",
             "homepage": "http://www.web-creations.at",
             "role": "Developer"
+        },
+        {
+        	"name": "Web-Creations",
+        	"homepage": "http://www.web-creations.at"
         }
     ],
     "support": {

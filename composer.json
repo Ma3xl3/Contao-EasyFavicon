@@ -29,7 +29,7 @@
 	"extra": {
 		"contao": {
 			"sources": {
-				"contao": "system/modules/easyFavicon"
+				"system/modules/easyFavicon": "system/modules/easyFavicon"
 			}
 		}
 	}

@@ -24,7 +24,7 @@
 		"contao/core": ">=3.0,<3.3"
 	},
 	"replace": {
-		"contao-legacy/jQueryVersionSwitcher": "*"
+		"contao-legacy/easyFavicon": "*"
 	},
 	"extra": {
 		"contao": {

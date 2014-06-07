@@ -28,7 +28,7 @@
 		"contao/core": ">=3.0,<3.3"
 	},
 	"replace": {
-		"contao-legacy/easyFavicon": "*"
+		"contao-legacy/easyfavicon": "*"
 	},
 	"extra": {
 		"contao": {

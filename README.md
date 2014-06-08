@@ -11,7 +11,7 @@ Apple touch icons for mobile devices (iOS, Android) are supported too. The icon 
 
 ## Requirements
 
-* Contao 3 / Contao 3.1 / Contao 3.2
+* Contao 3 / Contao 3.1 / Contao 3.2 / Contao 3.3
 
 ## Note
 

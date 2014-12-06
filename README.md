@@ -7,19 +7,25 @@ Png, jpeg and gif files will automatically be converted into a ico file. The fol
 
 You can also choose a traditional ico file. It will be included directly.
 
-Apple touch icons for mobile devices (iOS, Android) are supported too. The icon is stored in the size of 152x152.
+Apple touch icons for mobile devices (iOS, Android) are supported too. The icon is stored in the size of 180x180.
 
 ## Requirements
 
-* Contao 3 / Contao 3.1 / Contao 3.2 / Contao 3.3
+* Contao 3 / Contao 3.1 / Contao 3.2 / Contao 3.3 / Contao 3.4
 
 ## Note
 
 You can use a different icon per website root.
 
-To regenerate the icon, delete the file favicon-*.ico and favicon-apple-touch-icon-*.png in the share/ folder.
+To regenerate the icon, delete the file favicon-\*.ico and favicon-apple-touch-icon-\*.png in the share/ folder.
 
 ## Changelog
+
+##### Version 1.0.2 stable
+
+* Increased apple touch icon to 180x180
+* Changed image/vnd.microsoft.icon to image/x-icon
+* Tested with Contao 3.4
 
 ##### Version 1.0.1 stable
 

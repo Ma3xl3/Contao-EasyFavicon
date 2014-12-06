@@ -32,8 +32,8 @@ class easyFavicon extends \Frontend
 	    array( 48, 48 ),
 	);
 	
-	//iOS 7 largest icon size
-	protected $appleTouchIconSize = array(152, 152);	
+	//iOS 8.x largest icon size
+	protected $appleTouchIconSize = array(180, 180);	
 	
 	/**
 	 * add favicon to page
@@ -70,7 +70,7 @@ class easyFavicon extends \Frontend
 			}
 			
 			if( $favicon )
-				$GLOBALS['TL_HEAD'][] = '<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="'.$this->Environment->base . $favicon.'"' . ($blnXhtml ? ' />' : '>');
+				$GLOBALS['TL_HEAD'][] = '<link rel="shortcut icon" type="image/x-icon" href="'.$this->Environment->base . $favicon.'"' . ($blnXhtml ? ' />' : '>');
 						
 		}
 		

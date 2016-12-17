@@ -24,7 +24,7 @@ $GLOBALS['TL_DCA']['tl_page']['palettes']['__selector__'][] = 'addAppleTouchIcon
 $GLOBALS['TL_DCA']['tl_page']['palettes']['root'] =  str_replace('{publish_legend}', '{favicon_legend:hide},addFavicon,addAppleTouchIcon;{publish_legend}', $GLOBALS['TL_DCA']['tl_page']['palettes']['root']);
 
 // Subpalettes
-$GLOBALS['TL_DCA']['tl_page']['subpalettes']['addFavicon'] = 'faviconSRC';
+$GLOBALS['TL_DCA']['tl_page']['subpalettes']['addFavicon'] = 'faviconSRC,faviconToRoot';
 $GLOBALS['TL_DCA']['tl_page']['subpalettes']['addAppleTouchIcon'] = 'appleTouchIconSRC';
 
 // Fields
@@ -45,6 +45,15 @@ $GLOBALS['TL_DCA']['tl_page']['fields']['faviconSRC'] = array
 	'explanation'		=> 'faviconSRCexpl',
 	'eval'				=> array('helpwizard'=>true, 'filesOnly'=>true, 'fieldType'=>'radio', 'extensions' =>'ico,jpg,jpeg,png,gif', 'mandatory'=>true, 'tl_class'=>'w50 easyFavicon'),
 	'sql'				=> "binary(16) NULL"
+);
+
+$GLOBALS['TL_DCA']['tl_page']['fields']['faviconToRoot'] = array
+(
+	'label'				=> array('Favicon to ROOT', 'Add this favicon as favicon.ico to the root'),
+	'exclude'			=> true,
+	'inputType'			=> 'checkbox',
+	'eval'				=> array('unique'=>true, 'tl_class'=>'clr w50'),
+	'sql'				=> "char(1) NOT NULL default ''"
 );
 
 $GLOBALS['TL_DCA']['tl_page']['fields']['addAppleTouchIcon'] = array

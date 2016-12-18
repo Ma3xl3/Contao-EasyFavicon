@@ -67,6 +67,11 @@ class easyFavicon extends \Frontend
 			{
 				$favicon = 'share/favicon-' . $rootPage->alias . '.ico';
 				$this->createIco( TL_ROOT . '/' . $objFavicon->path, $favicon );
+				if($rootPage->faviconToRoot)
+				{
+					$rootFavicon = 'favicon.ico';
+					$this->createIco( TL_ROOT . '/' . $objFavicon->path, 'favicon.ico' );
+				}
 			}
 			
 			if( $favicon )

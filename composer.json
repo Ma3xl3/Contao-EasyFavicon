@@ -1,5 +1,5 @@
 {
-	"name": "ma3xl3-dev/contao-easy-favicon",
+	"name": "ma3xl3/contao-easy-favicon",
 	"description": "This extension allows you easily to add a favicon and apple touch icon to your website.",
 	"keywords": ["contao","favicon","apple touch icon","ico"],
 	"type": "contao-bundle",

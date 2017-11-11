@@ -1,16 +1,13 @@
 <?php
 
 /**
- * Contao Open Source CMS
+ * Easy Favicon Bundle for Contao Open Source CMS
  *
- * Copyright (c) 2005-2014 Leo Feyer
- *
- * @package   easyFavicon
- * @author    Markus Kinzl
- * @license   LGPL
- * @copyright Web-Creations 2014
+ * @copyright  Copyright (c) 2017-2017, Web-Creations
+ * @author     Markus Kinzl <https://github.com/Ma3xl3>
+ * @license    LGPL-3.0+
+ * @link       https://github.com/Ma3xl3/Contao-EasyFavicon
  */
-
 
 /**
  * Fields

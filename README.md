@@ -11,7 +11,9 @@ Apple touch icons for mobile devices (iOS, Android) are supported too. The icon 
 
 ## Requirements
 
-* Contao 3 / Contao 3.1 / Contao 3.2 / Contao 3.3 / Contao 3.4
+* Contao >=4.4 <5.0
+
+For Contao 3.x use version EasyFavicon 1.x
 
 ## Note
 
@@ -20,6 +22,11 @@ You can use a different icon per website root.
 To regenerate the icon, delete the file favicon-\*.ico and favicon-apple-touch-icon-\*.png in the share/ folder.
 
 ## Changelog
+
+##### Version 2.0.0 stable
+
+* Rewritten for contao 4.4 as a bundle
+* Outsourced php-ico from favicon bundle
 
 ##### Version 1.0.2 stable
 

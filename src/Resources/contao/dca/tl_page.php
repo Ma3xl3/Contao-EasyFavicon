@@ -1,18 +1,13 @@
 <?php
 
 /**
- * Contao Open Source CMS
+ * Easy Favicon Bundle for Contao Open Source CMS
  *
- * Copyright (c) 2005-2014 Leo Feyer
- *
- * @package   easyFavicon
- * @author    Markus Kinzl
- * @license   LGPL
- * @copyright Web-Creations 2014
+ * @copyright  Copyright (c) 2017-2017, Web-Creations
+ * @author     Markus Kinzl <https://github.com/Ma3xl3>
+ * @license    LGPL-3.0+
+ * @link       https://github.com/Ma3xl3/Contao-EasyFavicon
  */
-
-if (TL_MODE == 'BE')
-	$GLOBALS['TL_CSS'][] = 'system/modules/easyFavicon/assets/css/backend.css|screen';
 
 /**
  * Table tl_page
@@ -43,7 +38,7 @@ $GLOBALS['TL_DCA']['tl_page']['fields']['faviconSRC'] = array
 	'exclude'			=> true,
 	'inputType'			=> 'fileTree',
 	'explanation'		=> 'faviconSRCexpl',
-	'eval'				=> array('helpwizard'=>true, 'filesOnly'=>true, 'fieldType'=>'radio', 'extensions' =>'ico,jpg,jpeg,png,gif', 'mandatory'=>true, 'tl_class'=>'w50 easyFavicon'),
+	'eval'				=> array('helpwizard'=>true, 'filesOnly'=>true, 'fieldType'=>'radio', 'extensions' =>'ico,jpg,jpeg,png,gif', 'mandatory'=>true, 'tl_class'=>'clr w50'),
 	'sql'				=> "binary(16) NULL"
 );
 
@@ -61,6 +56,6 @@ $GLOBALS['TL_DCA']['tl_page']['fields']['appleTouchIconSRC'] = array
 		'label'				=> &$GLOBALS['TL_LANG']['tl_page']['appleTouchIconSRC'],
 		'exclude'			=> true,
 		'inputType'			=> 'fileTree',
-		'eval'				=> array('filesOnly'=>true, 'fieldType'=>'radio', 'extensions' =>'png', 'mandatory'=>true, 'tl_class'=>'w50 easyFavicon'),
+		'eval'				=> array('filesOnly'=>true, 'fieldType'=>'radio', 'extensions' =>'png', 'mandatory'=>true, 'tl_class'=>'clr w50'),
 		'sql'				=> "binary(16) NULL"
 );

@@ -1,6 +1,9 @@
 Contao-EasyFavicon
 ==============================
 
+[![](https://img.shields.io/packagist/v/ma3xl3/contao-easy-favicon.svg?style=flat-square)](https://packagist.org/packages/ma3xl3/contao-easy-favicon)
+[![](https://img.shields.io/packagist/dt/ma3xl3/contao-easy-favicon.svg?style=flat-square)](https://packagist.org/packages/ma3xl3/contao-easy-favicon)
+
 This extension allows you easily to add a favicon and apple touch icon to your website.
 
 Png, jpeg and gif files will automatically be converted into a ico file. The following sizes are available in the ico file: 16x16, 24x24, 32x32, 48x48. If you choose an animated gif the first image will be used for the ico converted file.
@@ -19,7 +22,7 @@ For Contao 3.x use version EasyFavicon 1.x
 
 You can use a different icon per website root.
 
-To regenerate the icon, delete the file favicon-\*.ico and favicon-apple-touch-icon-\*.png in the share/ folder.
+To regenerate the icon, delete the file favicon-\*.ico and favicon-apple-touch-icon-\*.png in the web/share/ folder.
 
 ## Changelog
 

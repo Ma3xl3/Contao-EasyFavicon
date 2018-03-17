@@ -38,7 +38,7 @@ $GLOBALS['TL_DCA']['tl_page']['fields']['faviconSRC'] = array
 	'exclude'			=> true,
 	'inputType'			=> 'fileTree',
 	'explanation'		=> 'faviconSRCexpl',
-	'eval'				=> array('helpwizard'=>true, 'filesOnly'=>true, 'fieldType'=>'radio', 'extensions' =>'ico,jpg,jpeg,png,gif', 'mandatory'=>true, 'tl_class'=>'clr w50'),
+	'eval'				=> array('helpwizard'=>true, 'filesOnly'=>true, 'fieldType'=>'radio', 'extensions' =>'ico,jpg,jpeg,png,gif', 'mandatory'=>true, 'tl_class'=>'clr w50 autoheight'),
 	'sql'				=> "binary(16) NULL"
 );
 
@@ -47,7 +47,7 @@ $GLOBALS['TL_DCA']['tl_page']['fields']['addAppleTouchIcon'] = array
 		'label'				=> &$GLOBALS['TL_LANG']['tl_page']['addAppleTouchIcon'],
 		'exclude'			=> true,
 		'inputType'			=> 'checkbox',
-		'eval'				=> array('submitOnChange'=>true, 'tl_class' => 'clr w50'),
+		'eval'				=> array('submitOnChange'=>true, 'tl_class' => 'clr w50 m12'),
 		'sql'				=> "char(1) NOT NULL default ''"
 );
 
@@ -56,6 +56,6 @@ $GLOBALS['TL_DCA']['tl_page']['fields']['appleTouchIconSRC'] = array
 		'label'				=> &$GLOBALS['TL_LANG']['tl_page']['appleTouchIconSRC'],
 		'exclude'			=> true,
 		'inputType'			=> 'fileTree',
-		'eval'				=> array('filesOnly'=>true, 'fieldType'=>'radio', 'extensions' =>'png', 'mandatory'=>true, 'tl_class'=>'clr w50'),
+		'eval'				=> array('filesOnly'=>true, 'fieldType'=>'radio', 'extensions' =>'png', 'mandatory'=>true, 'tl_class'=>'clr w50 autoheight'),
 		'sql'				=> "binary(16) NULL"
 );

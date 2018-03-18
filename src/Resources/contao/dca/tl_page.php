@@ -47,7 +47,7 @@ $GLOBALS['TL_DCA']['tl_page']['fields']['addAppleTouchIcon'] = array
 		'label'				=> &$GLOBALS['TL_LANG']['tl_page']['addAppleTouchIcon'],
 		'exclude'			=> true,
 		'inputType'			=> 'checkbox',
-		'eval'				=> array('submitOnChange'=>true, 'tl_class' => 'clr w50 m12'),
+		'eval'				=> array('submitOnChange'=>true, 'tl_class' => 'clr w50'),
 		'sql'				=> "char(1) NOT NULL default ''"
 );
 

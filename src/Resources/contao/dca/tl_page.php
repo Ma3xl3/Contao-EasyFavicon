@@ -18,6 +18,10 @@ $GLOBALS['TL_DCA']['tl_page']['palettes']['__selector__'][] = 'addFavicon';
 $GLOBALS['TL_DCA']['tl_page']['palettes']['__selector__'][] = 'addAppleTouchIcon';
 $GLOBALS['TL_DCA']['tl_page']['palettes']['root'] =  str_replace('{publish_legend}', '{favicon_legend:hide},addFavicon,addAppleTouchIcon;{publish_legend}', $GLOBALS['TL_DCA']['tl_page']['palettes']['root']);
 
+// for contao 4.9 and above
+if(isset($GLOBALS['TL_DCA']['tl_page']['palettes']['rootfallback']) )
+    $GLOBALS['TL_DCA']['tl_page']['palettes']['rootfallback'] =  str_replace('{publish_legend}', '{favicon_legend:hide},addFavicon,addAppleTouchIcon;{publish_legend}', $GLOBALS['TL_DCA']['tl_page']['palettes']['rootfallback']);
+
 // Subpalettes
 $GLOBALS['TL_DCA']['tl_page']['subpalettes']['addFavicon'] = 'faviconSRC';
 $GLOBALS['TL_DCA']['tl_page']['subpalettes']['addAppleTouchIcon'] = 'appleTouchIconSRC';

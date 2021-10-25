@@ -21,7 +21,7 @@
 		"source": "https://github.com/Ma3xl3/Contao-EasyFavicon"
 	},
 	"require": {
-		"php": "^5.6|^7.0|^8.0",
+		"php": "^7.0|^8.0",
 		"contao/core-bundle": "^4.4",
 		"chrisjean/php-ico" : "^1.0.4"
 	},

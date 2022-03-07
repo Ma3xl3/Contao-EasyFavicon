@@ -12,6 +12,7 @@
 namespace Ma3xl3\EasyFaviconBundle;
 
 use Contao\PageModel;
+use Contao\Environment;
 use Contao\FilesModel;
 use Contao\System;
 use Contao\File;
@@ -70,7 +71,7 @@ class EasyFavicon
 
             // Add favicon to head
             if( $favicon )
-                $GLOBALS['TL_HEAD'][] = '<link rel="shortcut icon" type="image/x-icon" href="'.$this->Environment->base . $favicon.'"' . ($blnXhtml ? ' />' : '>');
+                $GLOBALS['TL_HEAD'][] = '<link rel="shortcut icon" type="image/x-icon" href="' . Environment::get('base') . $favicon.'"' . ($blnXhtml ? ' />' : '>');
         }
 
         //apple touch icon

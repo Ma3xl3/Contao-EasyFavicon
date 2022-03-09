@@ -99,7 +99,7 @@ class EasyFavicon
                         );
                 }
 
-                $GLOBALS['TL_HEAD'][] = '<link rel="apple-touch-icon" href="'.$this->Environment->base . $faviconAppleTouchIcon.'"' . ($blnXhtml ? ' />' : '>');
+                $GLOBALS['TL_HEAD'][] = '<link rel="apple-touch-icon" href="'. Environment::get('base') . $faviconAppleTouchIcon.'"' . ($blnXhtml ? ' />' : '>');
             }
         }
     }

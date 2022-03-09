@@ -26,6 +26,10 @@ To regenerate the icon, delete the file favicon-\*.ico and favicon-apple-touch-i
 
 ## Changelog
 
+##### Version 2.0.4 stable
+
+* Fixed environment warning
+
 ##### Version 2.0.3 stable
 
 * Added PHP 8.0 compatibility

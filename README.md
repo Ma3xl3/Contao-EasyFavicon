@@ -26,6 +26,14 @@ To regenerate the icon, delete the file favicon-\*.ico and favicon-apple-touch-i
 
 ## Changelog
 
+##### Version 2.0.6 stable
+
+* Fixed contao 4.13 save path problem (web vs public)
+
+##### Version 2.0.5 stable
+
+* Fixed further environment warning
+
 ##### Version 2.0.4 stable
 
 * Fixed environment warning

@@ -14,6 +14,7 @@ namespace Ma3xl3\EasyFaviconBundle;
 use Contao\PageModel;
 use Contao\Environment;
 use Contao\FilesModel;
+use Contao\StringUtil;
 use Contao\System;
 use Contao\File;
 use Contao\Image;
@@ -118,7 +119,10 @@ class EasyFavicon
 
         $icoFile = new \PHP_ICO( $srcFile, $this->icoSizes );
 
+        // Get the web dir without root path
+        $webDir = StringUtil::stripRootDir(System::getContainer()->getParameter('contao.web_dir'));
+
         // Create the file
-        File::putContent('web/' . $savePath, $icoFile->_get_ico_data() );
+        File::putContent($webDir . '/' .$savePath, $icoFile->_get_ico_data() );
     }
 }
